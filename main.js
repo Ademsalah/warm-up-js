@@ -30,10 +30,7 @@ function subtract(num1,num2){
 
 function calc(operator, num1, num2) {
     if (operator === '+') {
-        return add(num1, num2);
-    } else {
-        return subtract(num1, num2);
-    }
+        return add(num1, num2);}  { return subtract(num1, num2); }
 }
 console.log(calc('+', 5, 3));
 console.log(calc('-', 5, 3));
